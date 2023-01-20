@@ -4,7 +4,7 @@
 //  const mongoURI = "mongodb://localhost:27017/"
 //  const mongoURI = "mongodb+srv://sudhanshu2911:2911gautam@cluster0.qpdrzzm.mongodb.net/?retryWrites=true&w=majority"
 
- const connectToMong = () => {
+ const connectToMongo = () => {
     mongoose.connect(mongoURI, ()=> {
         console.log("connection done to mongo")
     })
